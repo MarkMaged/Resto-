@@ -1,0 +1,277 @@
+/* start body style */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+/* end body style */
+#background{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3%;
+}
+/* start root style */
+:root{
+    --main-family-font : arial;
+}
+/* start style of frist section */
+.sections{
+    width: calc(100% - 50px);
+    height: 90vh;
+    background-color: white;
+    
+    margin-left: 2%;
+}
+/* end style of frist section */
+/* start style of header */
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+/* end style of header */
+/* start style of menu bar */
+#menubar{
+    width: 2%;
+    height: 4vh;
+    margin-top: 1%;
+    margin-left: 1%;
+
+}
+/* end style of menu bar */
+/* start style of links in header */
+section header a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    font-family: var(--main-family-font);
+}
+/* end style of links in header */
+/* start style of resto icon */
+#logo{
+    width: 10%;
+    height: 9vh;
+}
+/* end style of resto icon */
+/* start style of search icon */
+#searchicon{
+    width: 1.5%;
+    height: 3vh;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+/* end style of search icon */
+/* start drop down style */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.content-down{
+    position: absolute;
+    background-color: antiquewhite;
+    padding: 1%;
+    display: none;
+    z-index: 1;
+    min-width: 140px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .content-down{
+    display: block;
+}
+/* start div style in first section */
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* end div style in first section */
+/* start title style */
+#title{
+    font-family: var(--main-family-font);
+    font-size: 60px;
+    margin-top: 1%;
+}
+/* end title style */
+/* start button style */
+.button{
+    background-color: rgb(248, 94, 94);
+    border: 1px black;
+    border-radius: 25px;
+    font-family: var(--main-family-font);
+    color: white;
+    padding: 2%;
+}
+/* end button style */
+/* start div imgs style */
+#imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* end div imgs style */
+/* start class imgs style */
+.imgs{
+    width: 70%;
+    height: 6vh;
+    margin-top: 40%;
+}
+/* end class imgs style */
+.hrs{
+    display: inline;
+
+}
+/* start imga salad style */
+#saladimg{
+    height: 510px;
+    width: 475px;
+}
+/* end img salad style */
+/* start div style have a welcome part */
+#welcome{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+}
+#waffle-img{
+    box-shadow: 4px 20px rgb(0 0 0 / 10%);
+}
+#second-part-div{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+/* end div style have a welcome part */
+/* start style in about word */
+#about{
+    color: red;
+    font-family: var(--main-family-font);
+    font-size: 20px;
+}
+/* end style in about word */
+h2{
+    font-family: var(--main-family-font);
+}
+h3{
+    font-family: var(--main-family-font);
+    padding-top: 10%;
+}
+/* start style in pargraph on here way */
+#on-here-way-paragraph{
+    font-family: var(--main-family-font);
+}
+/* end style in pargraph on here way */
+/* start style in div have imgs fruit salad */
+#imgs-fruit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* end style in div have imgs fruit salad */
+/* start style in imgs fruit salad */
+.second-fruit-image{
+    width: 30%;
+    height: 25vh;
+}
+/* end style in imgs fruit salad */
+/* start style in div have fruits image title */
+#fruties-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.australian-paragraph{
+    font-family: var(--main-family-font);
+    text-align: left;
+    color: red;
+    width: 22%;
+}
+/* end style in div have fruits image title */
+/* start style in specialties paragraph */
+#specialties{
+    text-align: center;
+    font-family: var(--main-family-font);
+    margin-top: 0%;
+    color: red;
+}
+/* end style in specialties paragraph */
+/* start style in last section */
+#last-section{
+    background-color: rgb(214, 208, 208);
+}
+/* end style in last section */
+/* start style in last div  */
+#last-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto 10%;
+}
+/* end style in last div  */
+#sec-last-div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 5% 10% 0% 10%;
+}
+/* start style in special dishes paragraph */
+#special-dishes{
+    text-align: center;
+    font-family: var(--main-family-font);
+    font-size: 25px;
+}
+/* end style in special dishes paragraph */
+/* start style in numbers in last div  */
+.numbers{
+    font-size: 50px;
+}
+/* end style in numbers in last div  */
+/* start style in hr in last div  */
+.hr-num{
+    width: 15%;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+/* end style in hr in last div  */
+/* start style in beef-salmon words */
+.beef-salmon{
+    font-family: var(--main-family-font);
+    color: tomato;
+    font-size: 25px;
+    margin-bottom: 0%;
+}
+/* end style in beef-salmon words */
+/* start style in steak-zucchini words */
+.steak-zucchini{
+    font-family: var(--main-family-font);
+    font-size: 25px;
+    margin-top: 1%;
+}
+/* end style in steak-zucchini words */
+/* start style in last-paragraphs  */
+.last-paragraphs{
+    font-family: var(--main-family-font);
+    font-size: 17px;
+    width: 50%;
+}
+/* end style in last-paragraphs  */
+/* start style in costs  */
+.costs{
+    font-family: var(--main-family-font);
+    font-size: 25px;
+}
+/* end style in costs  */
+/* start style in books-button  */
+.book-button{
+    background-color: tomato;
+    color: white;
+    font-size: 17px;
+    border: 1px black;
+    border-radius: 30px;
+    padding: 2%;
+}
+/* end style in books-button */
+#paragraph-2{
+    margin-top: 2%;
+    margin-left: 26%;
+}
